@@ -194,15 +194,17 @@ cython_debug/
 # PyPI configuration file
 .pypirc
 
-# Environment and secret files
-secrets.env
-
 # Cursor
 #  Cursor is an AI-powered code editor. `.cursorignore` specifies files/directories to
 #  exclude from AI features like autocomplete and code analysis. Recommended for sensitive data
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+# Secret keys and environment variables
+secrets.env
+.env
+
 
 # Marimo
 marimo/_static/
